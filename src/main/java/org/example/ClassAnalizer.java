@@ -16,6 +16,6 @@ public class ClassAnalizer {
     }
     public static void main(String[] args) {
 
-        analizeClass(new Songs("Пришла весна", 10000, "bjb"));
+        analizeClass(new Songs("Пришла весна", 10000, "Soltwine"));
     }
 }

@@ -20,19 +20,19 @@ public class Songs {
     public int getListeners() {
         return listeners;
     }
-
+    @JsonElement
     public void setListeners(int listeners) {
         this.listeners = listeners;
     }
-
+    @JsonElement
     public String getAuthor() {
         return author;
     }
-
+    @JsonElement
     public void setAuthor(String author) {
         this.author = author;
     }
-
+    @JsonElement
     public Songs(String name, int listeners, String author) {
 
         this.listeners = listeners;
