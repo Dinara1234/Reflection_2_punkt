@@ -12,7 +12,26 @@ public class Songs {
     public int listeners;
     @JsonElement
     public String author;
+    public String getName() {
+        return name;
+    }
 
+    @JsonElement
+    public int getListeners() {
+        return listeners;
+    }
+
+    public void setListeners(int listeners) {
+        this.listeners = listeners;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
 
     public Songs(String name, int listeners, String author) {
 
